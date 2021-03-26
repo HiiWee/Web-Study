@@ -1,0 +1,121 @@
+<!-- 3주차 강의  -->
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description">
+    <meta name="keywords" content="HTML5, CSS, JQUERY">
+    <title>세번째실습_테이블실습</title>
+   
+    <!-- 스타일 태그에서 body태그의 속성값을 정의하며 속성값을 추가 및 변경할 수 있다. -->
+   <style>
+      body {
+        background-color: rgb(200, 248, 105);
+      }
+      table {
+        text-align: center;
+      }
+      div {
+        background-color: dodgerblue;
+        width: 200px;
+        
+      }
+      .table-4th {
+        /* background-color: yellow; */
+      }
+    </style>
+  </head>
+  
+  <body>
+    <table border=1px; width=200px; height=100px;>
+      <tr>
+        <th>표의제목1</th>
+        <th>표의제목2</th>
+      </tr>
+      <tr>
+        <td>내용1</td>
+        <td>내용2</td>
+      </tr>
+      <tr>
+        <td>내용3</td>
+        <td>내용4</td>
+      </tr>
+    </table>
+
+    <br>
+    <br>
+
+    <table border=1; width=200px; height=100px;>
+      <tr>
+        <th colspan="2">표의제목1,2 병합</th>
+      </tr>
+      <tr height=70px;>
+        <td colspan="2">내용1,2의 병합</td>
+      </tr>
+      <tr>
+        <td>내용3</td>
+        <td>내용4</td>
+      </tr>
+    </table>
+
+    <br>
+    <br>
+
+    <table border=1; width=200px; height=100px;>
+      <tr>
+        <th colspan="2">제목1,2 병합</th>
+      </tr>
+      <tr>
+        <td rowspan="3">내용1,3,5의 병합</td>
+        <td>내용2</td>
+      </tr>
+      <tr>
+        <td>내용4</td>
+      </tr>
+      <tr>
+        <td>내용6</td>
+      </tr>
+    </table>
+
+    <br>
+    <br>
+
+    <div>
+      <table border=1; width=200px; height=100px;>
+        <tr>
+          <th>표의제목1</th>
+          <th>표의제목2</th>
+        </tr>
+        <tr>
+          <td>내용1</td>
+          <td>내용2</td>
+        </tr>
+        <tr>
+          <td>내용3</td>
+          <td>내용4</td>
+        </tr>
+      </table>
+    </div>
+
+    <br>
+    <br>
+
+    <div>
+      <table class="table-4th" border=1; width=200px; height=100px;>
+        <tr>
+          <th>표의제목1</th>
+          <th>표의제목2</th>
+        </tr>
+        <tr>
+          <td>내용1</td>
+          <td>내용2</td>
+        </tr>
+        <tr>
+          <td>내용3</td>
+          <td>내용4</td>
+        </tr>
+      </table>
+    </div>
+
+  </body>
+</html>
