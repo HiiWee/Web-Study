@@ -1,0 +1,13 @@
+/* 2주차 실습 */
+body {
+  background-color: yellow;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.naver {
+  text-decoration: none;
+}
