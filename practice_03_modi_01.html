@@ -1,0 +1,87 @@
+<!-- 4주차 실습 -->
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="세번째 실습">
+	<meta name="keywords" content="HTML5, CSS, JQUERY">
+	<link rel="stylesheet" href="css/style.css">
+	<title>세번째 실습_css_01</title>
+</head>
+
+<body>
+	<div>
+		<!-- 헤더영역 시작 -->
+		<!-- 사이트에 소개나 머리말, 네비게이션 등을 표시하는 영역 -->
+		<header>
+			<p>
+				헤더영역
+			</p>
+			<!-- 네비게이션 영역 시작 -->
+			<!-- 사이트의 네비게이션(메뉴) 항목을 표시 -->
+			<nav class="navigation">
+				<a href="#none">[첫번째 메뉴]</a>
+				<a href="#none">[두번째 메뉴]</a>
+				<a href="#none">[세번째 메뉴]</a>
+				<a href="#none">[네번째 메뉴]</a>
+				<a href="#none">[다섯번째 메뉴]</a>
+			</nav>
+			<!-- 네비게이션 영역 끝 -->
+		</header>
+		<!-- 헤더영역 끝 -->
+	</div>
+
+	<div>
+		<!-- 문서의 내용 영역 시작 -->
+		<section class="firstSection">
+			내용영역
+			<figure>
+				<img src="images/a.jpg">
+				<figcaption>나름 추상화</figcaption>
+			</figure>
+		</section>
+		
+		<section class="secondSection">
+			<iframe src="https://www.youtube.com/embed/f8AlqnCMoTQ" frameborder="0" allowfullscreen></iframe> 
+			<!-- allowfullscreen : 유튜브 전체화면 활성화 -->
+		</section>
+
+		<section class="thirdSection">
+			<!-- 화면에 컨트롤바 표현 -->
+			<audio controls>
+				<!-- 음원의 위치를 넣는 태그 source src="" -->
+				<source src="media/foodfighter.mp3" type="audio/mp3">
+			</audio>
+		</section>
+
+		<section class="fourthSection">
+			<video controls width="450px" height="300px">
+				<source src="" type="video/mp4">
+			</video>
+		</section>
+		<!-- 문서 내용 영역 끝 -->
+
+
+		<!-- 5주차 실습-->
+		<aside>사이드바</aside>
+	</div>
+
+	<!-- 문서의 footer 영역 시작 -->
+	<div>
+		<footer>
+			<b>footer 태그 : 사이트의 제작자, 주소, 저작관 정보 등을 주로 표시</b>
+
+			<!-- details태그는 추가적인 정보나 사용자가 요청하는 정보를 표시 -->
+			<details>
+				<!-- summary 태그는 details 태그안의 엘리먼트의 머리글 표시 -->
+				<summary>Copyright</summary>
+				<p>이 책의 저작권은 ㅁㅁㅁ에게 ~</p>
+			</details>
+		</footer>
+	</div>
+	<!-- 문서의 footer 영역 끝 -->
+
+</body>
+
+</html>
