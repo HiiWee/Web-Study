@@ -14,20 +14,60 @@ img {
 
 
 
-/* 4주차 실습 */
+/* 4주차 실습 + 5주차*/
+div {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+}
+
 header {
   background-color: rgb(253, 85, 119);
+  
+}
+.navigation {
+  background-color: #000;
+  height: 30px;
+  padding-top: 15px;
+}
+.navigation > a {
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: yellowgreen;
 }
 
 .firstSection {
   background-color: rgb(248, 202, 116);
+  width: 760px;
+  height: 465px;
 }
 .secondSection {
   background-color: rgb(243, 255, 132);
+  height: 315px;
+}
+.secondSection > iframe {
+  width: 560px;
+  height: 315px;
 }
 .thirdSection {
-  background-color: rgb(121, 255, 121);
+  background-color: rgb(177, 252, 177);
+  height: 54px;
 }
 .fourthSection {
   background-color: rgb(103, 179, 255);
+}
+
+/* 5주차 실습 */
+aside {
+  background-color: #8a8aff;
+  position: absolute;
+  width: 240px;
+  height: 465px;
+  top: 0;
+  right: 0;
+}
+footer {
+  background-color: #F781F3;
+  padding: 20px 0 20px 0;
 }
