@@ -16,13 +16,13 @@ img {
 
 /* 4주차 실습 + 5주차*/
 
-div {
+/* div {
   position: relative;
   width: 1000px;
   margin: 0 auto;
 }
 
-header {
+.header_div {
   background-color: rgb(253, 85, 119);
   
 }
@@ -47,7 +47,7 @@ header {
   background-color: rgb(243, 255, 132);
   height: 320px;
 }
-.secondSection > iframe {
+.section_02 > iframe {
   width: 560px;
   height: 320px;
 }
@@ -57,10 +57,10 @@ header {
 }
 .section_04 {
   background-color: rgb(103, 179, 255);
-}
+} */
 
 /* 5주차 실습 */
-aside {
+/* aside {
   background-color: #8a8aff;
   position: absolute;
   width: 240px;
@@ -71,7 +71,66 @@ aside {
 footer {
   background-color: #F781F3;
   padding: 20px 0 20px 0;
-}
+} */
 
 /* 6주차 실습 */
-
+.header_div {
+  background-color: rgb(253, 85, 119);
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+}
+.nav {
+  background-color: #000;
+  height: 30px;
+  padding-top: 15px;
+  text-align: center;
+}
+.nav > a {
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: yellowgreen;
+  margin-left: 20px;
+}
+.content_div {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+}
+.section_01 {
+  background-color: rgb(248, 202, 116);
+   width: 760px;
+   height: 465px;
+}
+.section_02 {
+  background-color: rgb(243, 255, 132);
+  height: 320px;
+}
+.section_02 > .iframe {
+  width: 560px; 
+  height: 320px;
+}
+.section_03 {
+  background-color: rgb(177, 252, 177);
+  height: 54px;
+}
+.section_04 {
+  background-color: rgb(103, 179, 255);
+}
+.aside {
+  background-color: #8a8aff;
+  position: absolute;
+  width: 240px;
+  height: 465px;
+  top: 0;
+  right: 0;
+}
+.footer_div {
+  background-color: #F781F3;
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
